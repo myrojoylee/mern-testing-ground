@@ -4,6 +4,7 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
+    "test": "cross-env NODE_ENV=test jest --watchAll --verbose --runInBand --detectOpenHandles",
     "start": "node server.js",
     "develop": "nodemon server.js"
   },
